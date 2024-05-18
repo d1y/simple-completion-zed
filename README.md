@@ -1,15 +1,14 @@
 # Zed Simple completion
 
-LSP: https://github.com/estin/simple-completion-language-server
+LSP: https://github.com/d1y/scls
 
-First you need to install the lsp :)
+You need to install the lsp :)
 
-> Refer to https://github.com/helix-editor/helix/pull/3328
+```bash
+brew tap d1ylab/homebrew-tap
+brew install scls
+```
 
-![image.png](https://s2.loli.net/2024/05/04/hOy6wEtYLX9Sakz.png)
-
-## TODO
-
-- Snippets support?
-- Support config?
-- What are `language_ids` figure it out?
+| 路径提示      | 代码片段 |
+| ----------- | ----------- |
+| <img width="645" alt="image" src="https://github.com/d1y/scls/assets/45585937/a7c3211f-7fa8-4eac-9fe8-23d4943b25e3">      | <img width="780" alt="image" src="https://github.com/d1y/scls/assets/45585937/e02bc64f-4922-40c3-b040-fd643e871786">      |
