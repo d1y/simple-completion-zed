@@ -8,9 +8,6 @@ version = "0.0.1"
 
 [language_servers.scls]
 name = "Simple completion LSP"
-
-# TODO: add full language support?
-# I just added some of the languages ​​I know how to use
 languages = [
   "TypeScript",
   "JavaScript",
@@ -38,19 +35,17 @@ languages = [
   "Git Ignore"
 ]
 
-# At least I don't understand yet, what are `language_ids`?
-[language_ids]
+[language_servers.scls.language_ids]
 Dart = "dart"
 Go = "go"
 "Go Mod" = "gomod"
-"Go Work" = "gowork"
 HTML = "html"
 JavaScript = "javascript"
 Lua = "lua"
 Scheme = "scm"
 "Shell Script" = "shell"
 TypeScript = "typescript"
-"Vue.js" = "vuejs"
+"Vue.js" = "vue"
 Zig = "zig"
 C = "c"
 "C++" = "cpp"
